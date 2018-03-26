@@ -1,5 +1,14 @@
 class S
 {
+	static
+	{
+		
+	System.out.println("This is the static block");
+	System.out.println("This static block will execute before main method");
+		
+		
+	}
+	
 public static void main(String args[])
 {
 
